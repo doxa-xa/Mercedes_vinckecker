@@ -19,131 +19,324 @@ def read_vin(vin):
 def model_conditions(series,body,years):
      for y in range(0,len(years)):
           year = years[y][0]
-          if (series == '1') and (year >= '2016' and year <='2018'):
-               if body == 'P':
-                    #E-Class W213 database withdrawal
-                    pass
-               else:
-                    #A-Class W176 database withdrawal
-                    pass
-          elif (series == '1') and (year>= '2004' and year <= '2012'):
-                    pass # A-Class W169 database withdrawal
-          else: 
-                    pass # A-Class W168 database withdrawal
-          
-          if(series == '4') and (body =='M'):
-               pass # GLB-Class 
-          else:
-               pass # GLA-Class
-
-          if series == 'A' and year <= '1986':
-               pass # W123
-          elif series == 'A' and year <= '2004':
-               pass # W163 ML-Class
-          else:
-               pass # W206 C-Class
-          
-          if (series == 'B') and (year>='2005' and year <='2009'):
-               if(body=='B'):
-                    pass # ML
-               else:
-                    pass # GL
-          elif series =='B' and year <= '1989':
-               pass # SL-Class R107
-          elif (series =='B') and (year>='2002' and year<='2005'):
-               pass #GL-Class X164
-          
-          if series == "C" and year >= '2005':
-               pass # R-Class
-          elif series =='C' and year > '1979':
-               pass # S-Class W126
-          else:
-               pass # S-Class W116
-          
-          if series == 'D' and year < '1994':
-               pass # 190 W201
-          elif series =='D' and body == 'J':
-               pass # CLS-Class # C219
-          else:
-               pass # GLS-Class X166 or W166 ML-Class
-          
-          if series == 'E' and year < '1994':
-               pass # W124 E-Class
-          elif series == 'E' and body == 'J':
-               pass # CL-Class C216
-          else:
-               pass # GLE-Class W166
-          
-          if series == 'F' and year < '2002':
-               pass # R129 SL-Class
-          elif series == 'F' and body == 'F':
-               pass # GLS-Class X167
-          else:
-               pass # GLE-Class W167
-          
-          if series == 'G':
-               if year <= '1998':
-                    if body == 'J':
-                         pass # CL-Class W140
+          if series == '1':
+               if year >= '2016' and year <='2018':
+                    if body == 'P':
+                         return{
+                              'series':'E-Class',
+                              'chassis':'W213',
+                              'year':year
+                         }
                     else:
-                         pass # S-Class W140
+                         return{
+                              'series':'A-Class',
+                              'chassis':'W176',
+                              'year':year
+                         }
+               elif year>= '2004' and year <= '2012':
+                    return{
+                              'series':'A-Class',
+                              'chassis':'W169',
+                              'year':year
+                         }
+               elif year > 2018:
+                     return{
+                              'series':'E-Class',
+                              'chassis':'W213',
+                              'year':year
+                         }
+          if series == '4':
+                if body == 'M':
+                    return{
+                              'series':'GLB-Class',
+                              'chassis':'X247',
+                              'year':year
+                         }
+                else:
+                      return {
+                         'series':'GLA-Class',
+                         'chassis':'H247',
+                         'year':year
+                    }
+          if series == 'A':
+               if year >= 1982 and year <=1986:
+                    return {
+                         'series':'123',
+                         'chassis':'W123',
+                         'year':year
+                    }
+               elif year >=1997 and year<=2004:
+                         return{
+                         'series':'ML-class',
+                         'chassis':'W163',
+                         'year':year
+                    }
+               elif year >=2021 and year<=2023:
+                         return{
+                         'series':'C-class',
+                         'chassis':'W206',
+                         'year':year
+                    }
+          if series == 'B':
+               if year >= 1971 and year <= 1989:
+                     return {
+                         'series':'SL-Class',
+                         'chassis':'R107',
+                         'year':year
+                    }
+               elif year>='2005' and year <='2009':
+                     if body == 'B':
+                        return {
+                         'series':'ML-Class',
+                         'chassis':'W164',
+                         'year':year
+                         }
+                     else:
+                         return {
+                         'series':'GL-Class',
+                         'chassis':'X165',
+                         'year':year
+                         }
+               elif year >= 2010:
+                    return {
+                    'series':'ML-Class',
+                    'chassis':'W164',
+                    'year':year
+                    }   
+          if series == 'C':
+               if year >= 1980 and year <=1991:
+                    return {
+                         'series':'S-Class',
+                         'chassis':'W126',
+                         'year':year
+                    }
+               elif year >=1972 and year<=1979:
+                         return{
+                         'series':'S-class',
+                         'chassis':'W116',
+                         'year':year
+                    }
+               elif year >=2005 and year<=2017:
+                         return{
+                         'series':'R-class',
+                         'chassis':'W251',
+                         'year':year
+                    }
+          if series == 'D':
+                if year >= 2004 and year <= 2010:
+                      return {
+                              'series':'CLS-Class',
+                              'chassis':'C219',
+                              'year':year
+                         }
+                elif year >= 1982 and year <= 1993:
+                      return {
+                              'series':'190',
+                              'chassis':'W201',
+                              'year':year
+                         }
+                elif year >= 2009 and year <= 2019:
+                      return {
+                              'series':'GLE-Class or ML-Class',
+                              'chassis':'W166',
+                              'year':year
+                         }
+          if series == 'E':
+                if year >= 1984 and year <= 1993:
+                      return {
+                              'series':'E-Class',
+                              'chassis':'W124',
+                              'year':year
+                         }
+                elif year >= 2006 and year <= 2014:
+                      if body == 'J':
+                         return {
+                              'series':'CL-Class',
+                              'chassis':'C216',
+                              'year':year
+                         }
+                      else:
+                         return {
+                              'series':'GLE-Class',
+                              'chassis':'W166',
+                              'year':year
+                         }
+                elif year >=2014 and year <= 2019:
+                      return {
+                              'series':'GLE-Class',
+                              'chassis':'W166',
+                              'year':year
+                         }
+          if series == 'F':
+               if year >= 1989 and year <= 2001 and body =='A':
+                     return {
+                              'series':'SL-Class',
+                              'chassis':'R129',
+                              'year':year
+                         }
+               elif year >= 2016 and year <= 2023 and body !='A':
+                     if body == 'F':
+                          return {
+                              'series':'GLS-Class',
+                              'chassis':'X167',
+                              'year':year
+                         }
+                     else:
+                           return {
+                              'series':'GLE-Class',
+                              'chassis':'X167',
+                              'year':year
+                         }
+          if series == 'G':
+               if year >= 1991 and year <= 1998:
+                    if body != 'J':
+                         return {
+                              'series':'CL-Class',
+                              'chassis':'W140',
+                              'year':year
+                         }
+                    else:
+                          return {
+                              'series':'S-Class',
+                              'chassis':'W140',
+                              'year':year
+                         }
                else:
                     if body == 'G':
-                         pass # GLK-Class X204
+                         return {
+                              'series':'CLK-Class',
+                              'chassis':'X204',
+                              'year':year
+                              }
                     else:
-                         pass # C-Class W204
-          
-          if series == 'H' and year <= '2000':
-               pass # C-Class W202
-          else: 
-               pass # E-Class W212
-          
-          if series == 'J' and year <= '2002':
-               pass # E-Class W210
-          else:
-               pass # SL-Class R231
-          
-          if series == 'K' and year >= '2009':
-               pass # E-Class W212
-          else:
-               pass # SLK-Class R170
-          
-          if series == 'L' and year >= '2010':
-               pass # CLS-Class C218/X218
-          else:
-               pass # CLK-Class W208
-          
-          if series == 'N' and year > '2005':
-               pass # S-Class W221
-          else:
-               pass # S-Class W220
-          
-          if series == 'P' and year > '2010':
-               pass # SLK-Class R172
-          else:
-               pass # CL-Class C215
-          
-          if series == 'S' and year > '2012':
-               pass # CLA-Class C117
-          else:
-               pass # SL-Class R230
-          
-          if series == 'T' and year > '2015':
-               pass # GLA-Class X156
-          else:
-               pass # CLK-Class W209
-          
-          if series == 'U' and year > '2012':
-               pass # S-Class W222
-          else:
-               pass # E-Class W211
-          
+                         return {
+                              'series':'C-Class',
+                              'chassis':'W204',
+                              'year':year
+                              }                
+          if series == 'H':
+               if year >= 2009 and year <=2016:
+                    return {
+                         'series':'E-Class',
+                         'chassis':'W212',
+                         'year':year
+                    }
+               elif year >=1993 and year<=2000:
+                         return{
+                         'series':'C-class',
+                         'chassis':'W202',
+                         'year':year
+                    }
+          if series == 'J':
+               if year >= 1995 and year <=2002:
+                    return {
+                         'series':'E-Class',
+                         'chassis':'W210',
+                         'year':year
+                    }
+               elif year >=2012 and year<=2020:
+                         return{
+                         'series':'SL-class',
+                         'chassis':'R231',
+                         'year':year
+                    }
+          if series == 'K':
+               if year >= 1996 and year <=2004:
+                    return {
+                         'series':'SLK-Class',
+                         'chassis':'R170',
+                         'year':year
+                    }
+               elif year >2009 and year<=2016:
+                         return{
+                         'series':'E-class',
+                         'chassis':'W212',
+                         'year':year
+                    }
+          if series == 'L':
+               if year >= 1997 and year <=2003:
+                    return {
+                         'series':'CLK-Class',
+                         'chassis':'W208',
+                         'year':year
+                    }
+               elif year >2010 and year<=2018:
+                         return{
+                         'series':'CLS-class',
+                         'chassis':'C2018/X218',
+                         'year':year
+                    }
+          if series == 'N':
+               if year >= 1998 and year <=2005:
+                    return {
+                         'series':'S-class',
+                         'chassis':'W220',
+                         'year':year
+                    }
+               elif year >2005 and year<=2013:
+                         return{
+                         'series':'S-class',
+                         'chassis':'W221',
+                         'year':year
+                    }
+          if series == 'P':
+               if year >= 1999 and year <=2006:
+                    return {
+                         'series':'CL-class',
+                         'chassis':'C215',
+                         'year':year
+                    }
+               elif year >=2011 and year<=2020:
+                         return{
+                         'series':'SLK-class',
+                         'chassis':'R172',
+                         'year':year
+                    }
+          if series == 'S':
+               if year >= 2013 and year <=2019:
+                    return {
+                         'series':'CLA-class',
+                         'chassis':'C117',
+                         'year':year
+                    }
+               elif year >=2001 and year<=2011:
+                         return{
+                         'series':'SL-class',
+                         'chassis':'R230',
+                         'year':year
+                    }
+          if series == 'T':
+               if year >= 2016 and year <=2023:
+                    return {
+                         'series':'GLA-class',
+                         'chassis':'X156',
+                         'year':year
+                    }
+               elif year >=1997 and year<=2009:
+                         return{
+                         'series':'CLK-class',
+                         'chassis':'W209',
+                         'year':year
+                    }       
+          if series == 'U':
+               if year >= 2013 and year <=2020:
+                    return {
+                         'series':'S-class',
+                         'chassis':'W222',
+                         'year':year
+                    }
+               elif year >=2002 and year<=2009:
+                         return {
+                         'series':'E-class',
+                         'chassis':'W211',
+                         'year':year
+                    }
           if series == 'V':
                if year >= 2005 and year <=2011:
                     return {
                          'series':'B-class',
                          'chassis':'W245',
-                         'year':years[y]
+                         'year':year
                     }
                elif year >=2011 and year<=2019:
                          return {
@@ -162,7 +355,7 @@ def model_conditions(series,body,years):
                     return {
                          'series':'C-class',
                          'chassis':'W205',
-                         'year':years[y]
+                         'year':year
                     }
                elif year >=2004 and year<=2010:
                          return {

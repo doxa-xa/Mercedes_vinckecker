@@ -2956,3 +2956,159 @@
 2023-03-11 12:18:37,613: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'J'
 2023-03-11 12:18:37,615: INFO: sqlalchemy.engine.Engine [generated in 0.00192s] ()
 2023-03-11 12:18:37,664: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-11 12:27:17,375: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-11 12:27:17,375: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDD'
+2023-03-11 12:27:17,390: INFO: sqlalchemy.engine.Engine [generated in 0.00370s] ()
+2023-03-11 12:27:17,396: INFO: sqlalchemy.engine.Engine select year from year where code = 'E'
+2023-03-11 12:27:17,397: INFO: sqlalchemy.engine.Engine [generated in 0.00174s] ()
+2023-03-11 12:27:17,401: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'P'
+2023-03-11 12:27:17,402: INFO: sqlalchemy.engine.Engine [generated in 0.00190s] ()
+2023-03-11 12:27:17,406: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-11 12:27:17,408: INFO: sqlalchemy.engine.Engine [generated in 0.00177s] ()
+2023-03-11 12:27:17,411: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'J'
+2023-03-11 12:27:17,413: INFO: sqlalchemy.engine.Engine [generated in 0.00175s] ()
+2023-03-11 12:27:17,441: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-11 12:35:13,175: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-11 12:35:13,176: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDB'
+2023-03-11 12:35:13,178: INFO: sqlalchemy.engine.Engine [generated in 0.00365s] ()
+2023-03-11 12:35:13,183: INFO: sqlalchemy.engine.Engine select year from year where code = '8'
+2023-03-11 12:35:13,185: INFO: sqlalchemy.engine.Engine [generated in 0.00176s] ()
+2023-03-11 12:35:13,188: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'F'
+2023-03-11 12:35:13,190: INFO: sqlalchemy.engine.Engine [generated in 0.00200s] ()
+2023-03-11 12:35:13,195: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-11 12:35:13,196: INFO: sqlalchemy.engine.Engine [generated in 0.00165s] ()
+2023-03-11 12:35:13,199: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'B'
+2023-03-11 12:35:13,201: INFO: sqlalchemy.engine.Engine [generated in 0.00178s] ()
+2023-03-11 12:35:13,240: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-11 12:35:36,556: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-11 12:35:36,558: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDB'
+2023-03-11 12:35:36,560: INFO: sqlalchemy.engine.Engine [generated in 0.00408s] ()
+2023-03-11 12:35:36,566: INFO: sqlalchemy.engine.Engine select year from year where code = '8'
+2023-03-11 12:35:36,568: INFO: sqlalchemy.engine.Engine [generated in 0.00209s] ()
+2023-03-11 12:35:36,571: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'F'
+2023-03-11 12:35:36,573: INFO: sqlalchemy.engine.Engine [generated in 0.00196s] ()
+2023-03-11 12:35:36,578: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-11 12:35:36,579: INFO: sqlalchemy.engine.Engine [generated in 0.00164s] ()
+2023-03-11 12:35:36,618: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'B'
+2023-03-11 12:35:36,633: INFO: sqlalchemy.engine.Engine [generated in 0.01440s] ()
+2023-03-11 12:35:36,672: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-11 12:45:07,552: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-11 12:45:07,554: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDC'
+2023-03-11 12:45:07,555: INFO: sqlalchemy.engine.Engine [generated in 0.00363s] ()
+2023-03-11 12:45:07,561: INFO: sqlalchemy.engine.Engine select year from year where code = 'J'
+2023-03-11 12:45:07,563: INFO: sqlalchemy.engine.Engine [generated in 0.00180s] ()
+2023-03-11 12:45:07,566: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'G'
+2023-03-11 12:45:07,568: INFO: sqlalchemy.engine.Engine [generated in 0.00214s] ()
+2023-03-11 12:45:07,572: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-11 12:45:07,574: INFO: sqlalchemy.engine.Engine [generated in 0.00164s] ()
+2023-03-11 12:45:07,578: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'J'
+2023-03-11 12:45:07,603: INFO: sqlalchemy.engine.Engine [generated in 0.02525s] ()
+2023-03-11 12:45:07,623: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-11 12:45:24,577: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-11 12:45:24,579: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDC'
+2023-03-11 12:45:24,580: INFO: sqlalchemy.engine.Engine [generated in 0.00338s] ()
+2023-03-11 12:45:24,586: INFO: sqlalchemy.engine.Engine select year from year where code = 'J'
+2023-03-11 12:45:24,587: INFO: sqlalchemy.engine.Engine [generated in 0.00171s] ()
+2023-03-11 12:45:24,591: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'G'
+2023-03-11 12:45:24,592: INFO: sqlalchemy.engine.Engine [generated in 0.00179s] ()
+2023-03-11 12:45:24,596: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-11 12:45:24,598: INFO: sqlalchemy.engine.Engine [generated in 0.00166s] ()
+2023-03-11 12:45:24,601: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'J'
+2023-03-11 12:45:24,608: INFO: sqlalchemy.engine.Engine [generated in 0.00268s] ()
+2023-03-11 12:45:24,637: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-12 17:08:54,768: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-12 17:08:54,770: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDB'
+2023-03-12 17:08:54,771: INFO: sqlalchemy.engine.Engine [generated in 0.00379s] ()
+2023-03-12 17:08:54,777: INFO: sqlalchemy.engine.Engine select year from year where code = 'T'
+2023-03-12 17:08:54,779: INFO: sqlalchemy.engine.Engine [generated in 0.00177s] ()
+2023-03-12 17:08:54,783: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'A'
+2023-03-12 17:08:54,785: INFO: sqlalchemy.engine.Engine [generated in 0.00178s] ()
+2023-03-12 17:08:54,788: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-12 17:08:54,790: INFO: sqlalchemy.engine.Engine [generated in 0.00218s] ()
+2023-03-12 17:08:54,794: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'A'
+2023-03-12 17:08:54,795: INFO: sqlalchemy.engine.Engine [generated in 0.00167s] ()
+2023-03-12 17:08:54,804: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-12 17:11:17,437: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-12 17:11:17,437: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDC'
+2023-03-12 17:11:17,437: INFO: sqlalchemy.engine.Engine [generated in 0.00371s] ()
+2023-03-12 17:11:17,449: INFO: sqlalchemy.engine.Engine select year from year where code = 'E'
+2023-03-12 17:11:17,450: INFO: sqlalchemy.engine.Engine [generated in 0.00180s] ()
+2023-03-12 17:11:17,454: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'G'
+2023-03-12 17:11:17,456: INFO: sqlalchemy.engine.Engine [generated in 0.00193s] ()
+2023-03-12 17:11:17,460: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-12 17:11:17,462: INFO: sqlalchemy.engine.Engine [generated in 0.00227s] ()
+2023-03-12 17:11:17,465: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'G'
+2023-03-12 17:11:17,466: INFO: sqlalchemy.engine.Engine [generated in 0.00165s] ()
+2023-03-12 17:11:17,498: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-12 17:16:18,438: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-12 17:16:18,438: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDC'
+2023-03-12 17:16:18,453: INFO: sqlalchemy.engine.Engine [generated in 0.00350s] ()
+2023-03-12 17:16:18,459: INFO: sqlalchemy.engine.Engine select year from year where code = 'E'
+2023-03-12 17:16:18,461: INFO: sqlalchemy.engine.Engine [generated in 0.00179s] ()
+2023-03-12 17:16:18,465: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'G'
+2023-03-12 17:16:18,466: INFO: sqlalchemy.engine.Engine [generated in 0.00167s] ()
+2023-03-12 17:16:18,470: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-12 17:16:18,471: INFO: sqlalchemy.engine.Engine [generated in 0.00178s] ()
+2023-03-12 17:16:18,475: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'G'
+2023-03-12 17:16:18,477: INFO: sqlalchemy.engine.Engine [generated in 0.00193s] ()
+2023-03-12 17:16:18,480: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-12 17:16:36,593: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-12 17:16:36,593: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDC'
+2023-03-12 17:16:36,593: INFO: sqlalchemy.engine.Engine [generated in 0.00356s] ()
+2023-03-12 17:16:36,611: INFO: sqlalchemy.engine.Engine select year from year where code = 'E'
+2023-03-12 17:16:36,613: INFO: sqlalchemy.engine.Engine [generated in 0.00174s] ()
+2023-03-12 17:16:36,617: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'G'
+2023-03-12 17:16:36,618: INFO: sqlalchemy.engine.Engine [generated in 0.00175s] ()
+2023-03-12 17:16:36,622: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-12 17:16:36,624: INFO: sqlalchemy.engine.Engine [generated in 0.00205s] ()
+2023-03-12 17:16:36,628: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'G'
+2023-03-12 17:16:36,629: INFO: sqlalchemy.engine.Engine [generated in 0.00164s] ()
+2023-03-12 17:16:36,656: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-12 17:22:21,418: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-12 17:22:21,420: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = '4JG'
+2023-03-12 17:22:21,423: INFO: sqlalchemy.engine.Engine [generated in 0.00388s] ()
+2023-03-12 17:22:21,429: INFO: sqlalchemy.engine.Engine select year from year where code = 'N'
+2023-03-12 17:22:21,429: INFO: sqlalchemy.engine.Engine [generated in 0.00183s] ()
+2023-03-12 17:22:21,434: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'B'
+2023-03-12 17:22:21,436: INFO: sqlalchemy.engine.Engine [generated in 0.00186s] ()
+2023-03-12 17:22:21,440: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-12 17:22:21,441: INFO: sqlalchemy.engine.Engine [generated in 0.00197s] ()
+2023-03-12 17:22:21,445: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'A'
+2023-03-12 17:22:21,446: INFO: sqlalchemy.engine.Engine [generated in 0.00172s] ()
+2023-03-12 17:22:21,470: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-12 17:24:55,850: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-12 17:24:55,853: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = '4JG'
+2023-03-12 17:24:55,855: INFO: sqlalchemy.engine.Engine [generated in 0.00461s] ()
+2023-03-12 17:24:55,860: INFO: sqlalchemy.engine.Engine select year from year where code = 'N'
+2023-03-12 17:24:55,862: INFO: sqlalchemy.engine.Engine [generated in 0.00195s] ()
+2023-03-12 17:24:55,866: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'B'
+2023-03-12 17:24:55,867: INFO: sqlalchemy.engine.Engine [generated in 0.00180s] ()
+2023-03-12 17:24:55,872: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-12 17:24:55,874: INFO: sqlalchemy.engine.Engine [generated in 0.00179s] ()
+2023-03-12 17:24:55,879: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'A'
+2023-03-12 17:24:55,880: INFO: sqlalchemy.engine.Engine [generated in 0.00159s] ()
+2023-03-12 17:24:55,884: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-12 17:26:14,693: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-12 17:26:14,695: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = '4JG'
+2023-03-12 17:26:14,696: INFO: sqlalchemy.engine.Engine [generated in 0.00360s] ()
+2023-03-12 17:26:14,702: INFO: sqlalchemy.engine.Engine select year from year where code = 'N'
+2023-03-12 17:26:14,704: INFO: sqlalchemy.engine.Engine [generated in 0.00192s] ()
+2023-03-12 17:26:14,707: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'B'
+2023-03-12 17:26:14,709: INFO: sqlalchemy.engine.Engine [generated in 0.00212s] ()
+2023-03-12 17:26:14,713: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-12 17:26:14,715: INFO: sqlalchemy.engine.Engine [generated in 0.00189s] ()
+2023-03-12 17:26:14,719: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'A'
+2023-03-12 17:26:14,720: INFO: sqlalchemy.engine.Engine [generated in 0.00169s] ()
+2023-03-12 17:26:14,723: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-12 17:26:59,796: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-12 17:26:59,798: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDB'
+2023-03-12 17:26:59,799: INFO: sqlalchemy.engine.Engine [generated in 0.00361s] ()
+2023-03-12 17:26:59,805: INFO: sqlalchemy.engine.Engine select year from year where code = 'N'
+2023-03-12 17:26:59,806: INFO: sqlalchemy.engine.Engine [generated in 0.00174s] ()
+2023-03-12 17:26:59,810: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'A'
+2023-03-12 17:26:59,812: INFO: sqlalchemy.engine.Engine [generated in 0.00177s] ()
+2023-03-12 17:26:59,815: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-12 17:26:59,818: INFO: sqlalchemy.engine.Engine [generated in 0.00223s] ()
+2023-03-12 17:26:59,821: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'F'
+2023-03-12 17:26:59,823: INFO: sqlalchemy.engine.Engine [generated in 0.00167s] ()
+2023-03-12 17:26:59,831: INFO: sqlalchemy.engine.Engine ROLLBACK
