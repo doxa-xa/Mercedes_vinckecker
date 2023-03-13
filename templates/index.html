@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='../static/main.css')}}">
     <title>Mercedes-Benz VIN Checker</title>
 </head>
 <body>
-    <h1>Mercedes-Benz VIN Info</h1>
-    <form action="/result" method="post">
-        <label for="vin">Enter Vehicle VIN Number</label><br>
-        <input type="text" placeholder="VIN Number" name="vin">
-        <input type="submit" value="Check">
-    </form>
+    <div class="box">
+        <form>
+            <span class="text-center">Enter Vin</span>
+        <div class="input-container">
+            <input type="text" required=""/>
+            <label>VIN</label>		
+        </div>
+            <button type="button" class="btn">submit</button>
+    </form>	
+    </div>
 </body>
 </html>

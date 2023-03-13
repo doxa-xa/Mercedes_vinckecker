@@ -64,7 +64,7 @@ def result():
         }
     return render_template('result.html', details = response)
 
-app.run('127.0.0.1',3000)
+app.run(debug=True, port=5000, host='127.0.0.1')
 
 
 
