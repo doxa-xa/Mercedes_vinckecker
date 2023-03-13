@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, text
 from utils import decompose_vin, r_sys
 import logging
 from verification_mb import model_conditions
-
+from flask import Flask, render_template, url_for, request
 
 engine = create_engine('sqlite+pysqlite:///vinchecker.db',echo=True)
 
@@ -49,15 +49,23 @@ def vin_check(number):
             }
     return vin_data
 
-print(vin_check('WDBFA66E1NF052592'))
+app = Flask(__name__)
 
-# with engine.connect() as conn:
-#     t = text ('select * from factory')
-#     r = conn.execute(t)
-#     for i in r:
-#         print(i)
-# wmi = read_csv('../Mercedes/mb_factory.csv')
-# Controls.populate_factory(wmi,engine)
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+@app.route('/result',methods=['POST'])
+def result():
+    vin = request.form.getlist('vin')
+    response = {
+        'vin':vin[0],
+        'details':vin_check(vin[0])
+        }
+    return render_template('result.html', details = response)
+
+app.run('127.0.0.1',3000)
+
 
 
 

@@ -3112,3 +3112,97 @@
 2023-03-12 17:26:59,821: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'F'
 2023-03-12 17:26:59,823: INFO: sqlalchemy.engine.Engine [generated in 0.00167s] ()
 2023-03-12 17:26:59,831: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-13 10:44:27,828: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-13 10:44:27,844: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDB'
+2023-03-13 10:44:27,848: INFO: sqlalchemy.engine.Engine [generated in 0.00536s] ()
+2023-03-13 10:44:27,855: INFO: sqlalchemy.engine.Engine select year from year where code = 'N'
+2023-03-13 10:44:27,857: INFO: sqlalchemy.engine.Engine [generated in 0.00239s] ()
+2023-03-13 10:44:27,865: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'A'
+2023-03-13 10:44:27,867: INFO: sqlalchemy.engine.Engine [generated in 0.00274s] ()
+2023-03-13 10:44:27,873: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-13 10:44:27,876: INFO: sqlalchemy.engine.Engine [generated in 0.00279s] ()
+2023-03-13 10:44:27,882: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'F'
+2023-03-13 10:44:27,916: INFO: sqlalchemy.engine.Engine [generated in 0.03384s] ()
+2023-03-13 10:44:27,932: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-13 11:47:17,100: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-13 11:47:17,100: INFO: sqlalchemy.engine.Engine select * from wmi
+2023-03-13 11:47:17,100: INFO: sqlalchemy.engine.Engine [generated in 0.00467s] ()
+2023-03-13 11:47:17,138: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-13 12:00:57,672: INFO: werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2023-03-13 12:00:57,672: INFO: werkzeug [33mPress CTRL+C to quit[0m
+2023-03-13 12:01:04,227: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-13 12:01:04,229: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDD'
+2023-03-13 12:01:04,231: INFO: sqlalchemy.engine.Engine [generated in 0.00366s] ()
+2023-03-13 12:01:04,240: INFO: sqlalchemy.engine.Engine select year from year where code = 'D'
+2023-03-13 12:01:04,242: INFO: sqlalchemy.engine.Engine [generated in 0.00171s] ()
+2023-03-13 12:01:04,247: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'F'
+2023-03-13 12:01:04,249: INFO: sqlalchemy.engine.Engine [generated in 0.00216s] ()
+2023-03-13 12:01:04,254: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-13 12:01:04,256: INFO: sqlalchemy.engine.Engine [generated in 0.00171s] ()
+2023-03-13 12:01:04,263: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'R'
+2023-03-13 12:01:04,266: INFO: sqlalchemy.engine.Engine [generated in 0.00295s] ()
+2023-03-13 12:01:04,310: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-13 12:01:04,325: INFO: werkzeug 127.0.0.1 - - [13/Mar/2023 12:01:04] "POST /result HTTP/1.1" 200 -
+2023-03-13 12:12:14,426: INFO: werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2023-03-13 12:12:14,428: INFO: werkzeug [33mPress CTRL+C to quit[0m
+2023-03-13 12:12:21,312: INFO: werkzeug 127.0.0.1 - - [13/Mar/2023 12:12:21] "GET / HTTP/1.1" 200 -
+2023-03-13 12:12:23,874: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-13 12:12:23,876: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDD'
+2023-03-13 12:12:23,879: INFO: sqlalchemy.engine.Engine [generated in 0.00571s] ()
+2023-03-13 12:12:23,887: INFO: sqlalchemy.engine.Engine select year from year where code = 'D'
+2023-03-13 12:12:23,888: INFO: sqlalchemy.engine.Engine [generated in 0.00166s] ()
+2023-03-13 12:12:23,893: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'F'
+2023-03-13 12:12:23,894: INFO: sqlalchemy.engine.Engine [generated in 0.00188s] ()
+2023-03-13 12:12:23,898: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-13 12:12:23,900: INFO: sqlalchemy.engine.Engine [generated in 0.00195s] ()
+2023-03-13 12:12:23,908: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'R'
+2023-03-13 12:12:23,913: INFO: sqlalchemy.engine.Engine [generated in 0.00531s] ()
+2023-03-13 12:12:23,916: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-13 12:12:24,149: INFO: werkzeug 127.0.0.1 - - [13/Mar/2023 12:12:24] "POST /result HTTP/1.1" 200 -
+2023-03-13 12:13:34,964: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-13 12:13:34,966: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDD'
+2023-03-13 12:13:34,968: INFO: sqlalchemy.engine.Engine [cached since 71.09s ago] ()
+2023-03-13 12:13:34,972: INFO: sqlalchemy.engine.Engine select year from year where code = 'D'
+2023-03-13 12:13:34,974: INFO: sqlalchemy.engine.Engine [cached since 71.09s ago] ()
+2023-03-13 12:13:34,979: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'F'
+2023-03-13 12:13:34,981: INFO: sqlalchemy.engine.Engine [cached since 71.09s ago] ()
+2023-03-13 12:13:34,985: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-13 12:13:34,987: INFO: sqlalchemy.engine.Engine [cached since 71.09s ago] ()
+2023-03-13 12:13:34,991: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'R'
+2023-03-13 12:13:34,993: INFO: sqlalchemy.engine.Engine [cached since 71.09s ago] ()
+2023-03-13 12:13:34,997: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-13 12:13:35,001: INFO: werkzeug 127.0.0.1 - - [13/Mar/2023 12:13:35] "POST /result HTTP/1.1" 200 -
+2023-03-13 12:13:39,383: INFO: werkzeug 127.0.0.1 - - [13/Mar/2023 12:13:39] "GET / HTTP/1.1" 200 -
+2023-03-13 12:13:42,643: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-13 12:13:42,645: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDD'
+2023-03-13 12:13:42,649: INFO: sqlalchemy.engine.Engine [cached since 78.78s ago] ()
+2023-03-13 12:13:42,656: INFO: sqlalchemy.engine.Engine select year from year where code = '8'
+2023-03-13 12:13:42,658: INFO: sqlalchemy.engine.Engine [generated in 0.00279s] ()
+2023-03-13 12:13:42,663: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'F'
+2023-03-13 12:13:42,665: INFO: sqlalchemy.engine.Engine [cached since 78.77s ago] ()
+2023-03-13 12:13:42,670: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-13 12:13:42,671: INFO: sqlalchemy.engine.Engine [cached since 78.77s ago] ()
+2023-03-13 12:13:42,675: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'F'
+2023-03-13 12:13:42,678: INFO: sqlalchemy.engine.Engine [generated in 0.00311s] ()
+2023-03-13 12:13:42,682: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-13 12:13:42,724: INFO: werkzeug 127.0.0.1 - - [13/Mar/2023 12:13:42] "POST /result HTTP/1.1" 200 -
+2023-03-13 12:17:31,958: INFO: werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2023-03-13 12:17:31,961: INFO: werkzeug [33mPress CTRL+C to quit[0m
+2023-03-13 12:17:39,629: INFO: werkzeug 127.0.0.1 - - [13/Mar/2023 12:17:39] "GET / HTTP/1.1" 200 -
+2023-03-13 12:17:43,322: INFO: sqlalchemy.engine.Engine BEGIN (implicit)
+2023-03-13 12:17:43,326: INFO: sqlalchemy.engine.Engine select wmi from wmi where code = 'WDD'
+2023-03-13 12:17:43,328: INFO: sqlalchemy.engine.Engine [generated in 0.00655s] ()
+2023-03-13 12:17:43,336: INFO: sqlalchemy.engine.Engine select year from year where code = '8'
+2023-03-13 12:17:43,338: INFO: sqlalchemy.engine.Engine [generated in 0.00170s] ()
+2023-03-13 12:17:43,342: INFO: sqlalchemy.engine.Engine select body_type from body where code = 'F'
+2023-03-13 12:17:43,344: INFO: sqlalchemy.engine.Engine [generated in 0.00217s] ()
+2023-03-13 12:17:43,350: INFO: sqlalchemy.engine.Engine select safety from safety where code = 'F'
+2023-03-13 12:17:43,352: INFO: sqlalchemy.engine.Engine [generated in 0.00201s] ()
+2023-03-13 12:17:43,356: INFO: sqlalchemy.engine.Engine select factory, country from factory where code = 'F'
+2023-03-13 12:17:43,358: INFO: sqlalchemy.engine.Engine [generated in 0.00170s] ()
+2023-03-13 12:17:43,392: INFO: sqlalchemy.engine.Engine ROLLBACK
+2023-03-13 12:17:43,505: INFO: werkzeug 127.0.0.1 - - [13/Mar/2023 12:17:43] "POST /result HTTP/1.1" 200 -
+2023-03-13 12:17:47,287: INFO: werkzeug 127.0.0.1 - - [13/Mar/2023 12:17:47] "GET / HTTP/1.1" 200 -

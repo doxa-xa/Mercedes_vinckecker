@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result for {{details['vin']}}</title>
+</head>
+<body>
+    <h3>Vehicle Details</h3>
+    <ul>
+        <li>Manufacturer:{{details['details']['manufacturer']}}</li>
+        <li>Series:{{details['details']['details']['series']}}</li>
+        <li>Chassis:{{details['details']['details']['chassis']}}</li>
+        <li>Year:{{details['details']['details']['year']}}</li>
+        <li>Type:{{details['details']['body']}}</li>
+        <li>Safety system:{{details['details']['restraint system']}}</li>
+        <li>Factory:{{details['details']['manufacturing plant']['Name']}}, {{details['details']['manufacturing plant']['country']}}</li>
+        <li>Serial Number:{{details['details']['serial number']}}</li>
+    </ul>
+    <br>
+    <footer>
+        <a href="#">Save to file</a>
+        <a href="#">Print</a>
+        <a href="#">Share</a>
+        <a href="/">Back</a>
+        <a href="/history">Previous serches</a>
+    </footer>
+    
+</body>
+</html>
